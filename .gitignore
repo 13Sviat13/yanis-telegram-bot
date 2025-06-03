@@ -1,0 +1,39 @@
+# Віртуальне середовище
+venv/
+.venv/
+
+# Файли Python кешу
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файли IDE (наприклад, PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Локальні файли конфігурації та середовища
+.env
+instance/
+
+# Файли баз даних SQLite (якщо ви їх тимчасово використовували або вони є в проекті)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+bot.session
+todo_db
+
+# Файл персистентності PicklePersistence
+bot_persistence.pickle
+
+# Папки для збірки та дистрибуції (якщо будуть)
+build/
+dist/
+*.egg-info/
+
+# Лог-файли
+*.log
+
+# Файли операційної системи
+.DS_Store
+Thumbs.db
